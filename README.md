@@ -14,7 +14,6 @@ A real-time weather application that allows users to search for weather informat
 - **Backend:** Java, JSP (Java Server Pages), Servlet
 - **Weather API:** OpenWeatherMap API
 - **JSON Parsing:** Gson library
-- **Security:** Data fetched securely using HTTP GET requests
 - **IDE:** Eclipse
 - **Server:** Apache Tomcat 10.1
 
