@@ -49,7 +49,7 @@ A real-time weather application that allows users to search for weather informat
 - The data (date, temperature, humidity, wind speed, etc.) is forwarded to a JSP page (`index.jsp`) for display.
 
 ## Example Screenshot:
-![Weather App Screenshot](images/weather-screenshot.png)
+![Weather App Screenshot](WeatherApp/src/main/webapp/images/weather-logo.png)
 
 ## Contributing:
 Feel free to fork the repository and submit pull requests if you would like to contribute to the development of this project!
