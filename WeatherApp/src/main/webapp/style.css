@@ -1,0 +1,163 @@
+
+    @charset "UTF-8";
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Ubuntu", sans-serif;
+    }
+
+    body {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to right, #1d2c59, #3e4a78); /* Darker gradient background */
+      overflow: hidden;
+    }
+
+    .mainContainer {
+      width: 40rem;
+      max-width: 90%;
+      height: auto;
+      border-radius: 1.5rem;
+      background: #fff;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 
+                  0 10px 10px rgba(0, 0, 0, 0.22);
+      padding: 2rem;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .header img {
+      height: 120px;
+      width: auto;
+      filter: drop-shadow(20px 10px 10px #333); /* Adding shadow for better logo visibility */
+      margin-bottom: 1rem;
+    }
+
+    .header h1 {
+      color: #f9c74f; /* Unique golden color */
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: bold; /* Bold text */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text stroke */
+    }
+
+    .header h3 {
+      color: #ddd;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      font-weight: bold; /* Bold text */
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adding text stroke */
+    }
+
+    .searchInput {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    .searchInput input {
+      width: 70%;
+      height: 3rem;
+      outline: none;
+      font-size: 1rem;
+      color: #525050;
+      padding: 0.5rem;
+      border-radius: 1.5rem;
+      border: 1px solid #b3b3b3;
+      font-weight: bold; /* Bold text */
+    }
+
+    .searchInput button {
+      width: 3rem;
+      height: 3rem;
+      cursor: pointer;
+      color: #9b9b9b;
+      border-radius: 50%;
+      margin-left: 0.5rem;
+      transition: all 0.3s ease;
+      background-color: #fff;
+      border: 1px solid #b3b3b3;
+    }
+
+    .searchInput button:hover {
+      color: #fff;
+      background-color: #3e4a78;
+      border: 1px solid #3e4a78;
+    }
+
+    .weatherIcon {
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+    }
+
+    .weatherIcon img {
+      width: 10rem;
+      height: auto;
+    }
+
+    .weatherDetails .temp {
+      font-size: 3rem;
+      color: #333;
+      font-weight: bold; /* Bold text */
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Adding text stroke */
+    }
+
+    .cityDetails {
+      color: #323232;
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 0.5rem;
+      font-weight: bold; /* Bold text */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text stroke */
+    }
+
+    .cityDetails .date {
+      color: #323232;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 0.5rem;
+      font-weight: bold; /* Bold text */
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Adding text stroke */
+    }
+
+    .windDetails {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1rem;
+      padding: 0.5rem 2rem;
+      background-color: #f4f4f4;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .windDetails .humidityBox, 
+    .windDetails .windSpeed {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      color: #323232;
+      font-weight: bold; /* Bold text */
+    }
+
+    .windDetails .humidityBox img,
+    .windDetails .windSpeed img {
+      height: 2rem;
+      margin-right: 0.5rem;
+    }
+
+    .image-logo {
+      height: auto;
+      width: auto;
+      filter: drop-shadow(20px 10px 10px black);
+    }
+
+ 

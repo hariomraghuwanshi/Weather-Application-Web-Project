@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherWise - Check Your City's Weather</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    /* General reset and layout styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    body {
+      background: #1d2c59; /* Dark background */
+      color: #fff; /* White text */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 850px;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 1.5rem;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+      color: #fff;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+
+    form {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+
+    input[type="text"] {
+      width: 70%;
+      padding: 1rem;
+      font-size: 1rem;
+      color: #333;
+      border-radius: 1.5rem;
+      border: 2px solid #ddd;
+      outline: none;
+      margin-right: 10px;
+    }
+
+    input[type="text"]:focus {
+      border-color: #3e4a78;
+    }
+
+    button {
+      padding: 1rem;
+      border-radius: 50%;
+      background-color: #3e4a78;
+      border: 2px solid #3e4a78;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #fff;
+      color: #3e4a78;
+    }
+
+    /* Logo styles with further increased size */
+    .container img {
+      height: 200px;  /* Increased logo size */
+      width: auto;
+      filter: drop-shadow(10px 10px 10px black);
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="images/weather-logo.png" alt="WeatherWise Logo">
+    
+    <h1>Welcome to WeatherWise</h1>
+    <h3>Your Weather Forecast Hub</h3>
+    
+    <p>Get accurate weather updates and plan your day with ease!</p>
+    
+    <form action="MyServlet" method="post" class="searchInput">
+      <input type="text" placeholder="Enter City Name" id="searchInput" value="New Delhi" name="city" />
+      <button id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+
+    <p>Enter your city and check out the weather instantly!</p>
+  </div>
+
+</body>
+</html>
