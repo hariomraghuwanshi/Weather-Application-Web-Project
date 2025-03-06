@@ -49,8 +49,8 @@ A real-time weather application that allows users to search for weather informat
 
 ## Example Screenshot:
 ![Weather App Screenshot](WeatherApp/src/main/webapp/images/weather-logo.png)
-![Welcome Page](Welcome Page.png)
-![Weather Details Page](Weather Details Page.png)
+![Welcome Page](Weather-Application-Web-Project/Welcome-Page.png)
+![Weather Details Page](Weather-Application-Web-Project/Weather-Details-Page.png)
 
 
 ## Contributing:
