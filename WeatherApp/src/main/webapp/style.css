@@ -13,7 +13,7 @@
       height: 100vh;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(to right, #1d2c59, #3e4a78); /* Darker gradient background */
+      background: linear-gradient(to right, #1d2c59, #3e4a78); 
       overflow: hidden;
     }
 
@@ -36,24 +36,24 @@
     .header img {
       height: 120px;
       width: auto;
-      filter: drop-shadow(20px 10px 10px #333); /* Adding shadow for better logo visibility */
+      filter: drop-shadow(20px 10px 10px #333); 
       margin-bottom: 1rem;
     }
 
     .header h1 {
-      color: #f9c74f; /* Unique golden color */
+      color: #f9c74f; 
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
-      font-weight: bold; /* Bold text */
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text stroke */
+      font-weight: bold; 
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     .header h3 {
       color: #ddd;
       font-size: 1.2rem;
       margin-bottom: 1rem;
-      font-weight: bold; /* Bold text */
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adding text stroke */
+      font-weight: bold; 
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
     }
 
     .searchInput {
@@ -72,7 +72,7 @@
       padding: 0.5rem;
       border-radius: 1.5rem;
       border: 1px solid #b3b3b3;
-      font-weight: bold; /* Bold text */
+      font-weight: bold;
     }
 
     .searchInput button {
@@ -107,8 +107,8 @@
     .weatherDetails .temp {
       font-size: 3rem;
       color: #333;
-      font-weight: bold; /* Bold text */
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Adding text stroke */
+      font-weight: bold; 
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
     }
 
     .cityDetails {
@@ -116,8 +116,8 @@
       font-size: 2.5rem;
       text-align: center;
       margin-bottom: 0.5rem;
-      font-weight: bold; /* Bold text */
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text stroke */
+      font-weight: bold; 
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     }
 
     .cityDetails .date {
@@ -125,8 +125,8 @@
       font-size: 1.5rem;
       text-align: center;
       margin-bottom: 0.5rem;
-      font-weight: bold; /* Bold text */
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Adding text stroke */
+      font-weight: bold; 
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); 
     }
 
     .windDetails {
@@ -145,7 +145,7 @@
       align-items: center;
       font-size: 1rem;
       color: #323232;
-      font-weight: bold; /* Bold text */
+      font-weight: bold; 
     }
 
     .windDetails .humidityBox img,
