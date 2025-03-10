@@ -2,18 +2,18 @@ var weatherIcon = document.getElementById("weather-icon");
 
 var val = document.getElementById("wc").value;
 
-// Get the current hour to determine if it's day or night
+
 var currentHour = new Date().getHours();
 
-// Function to determine whether it's day or night
+
 function isDayTime(hour) {
-  return hour >= 6 && hour < 18;  // 6 AM to 6 PM is considered day time
+  return hour >= 6 && hour < 18;  
 }
 
-// Check if it's day or night
+
 var isDay = isDayTime(currentHour);
 
-// Switch weather icon based on weather condition (val) and time of day
+
 switch (val) {
   case 'Clouds':
     weatherIcon.src = isDay
